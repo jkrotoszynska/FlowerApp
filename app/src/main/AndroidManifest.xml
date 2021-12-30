@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name="com.example.myapp.Activity.ShowDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.MainActivity"
             android:exported="false" />
         <activity

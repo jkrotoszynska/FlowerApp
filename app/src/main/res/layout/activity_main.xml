@@ -15,7 +15,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -41,7 +41,7 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
                     android:text="Hello Veronica"
-                    android:textColor="#FFC0C0"
+                    android:textColor="#000000"
                     android:textSize="23dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
@@ -51,10 +51,10 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="Look and buy"
+                    android:layout_marginTop="4dp"
+                    android:text="What kind of flowers are you looking for?"
                     android:textColor="#453E3A"
-                    android:textSize="17dp"
+                    android:textSize="12dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="@+id/textView2"
                     app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -72,7 +72,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout"
                     android:layout_width="0dp"
-                    android:layout_height="165dp"
+                    android:layout_height="130dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="32dp"
                     android:layout_marginEnd="20dp"
@@ -82,16 +82,55 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/card_background"
                         android:scaleType="fitXY"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="1.0"
-                        app:srcCompat="@drawable/pic1" />
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dzień Babci"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/textView9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="piątek, 21 stycznia"
+                        android:textColor="#FF8B8B"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/textView8"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/textView8"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="zostało 9 dni"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/textView9"
+                        app:layout_constraintStart_toStartOf="@+id/textView9"
+                        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -139,6 +178,12 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 
@@ -150,17 +195,18 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:backgroundTint="#f6f6f6"
-            android:id="@+id/app_bar"
             app:fabCradleMargin="8dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginRight="15dp">
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:id="@+id/home_btn"

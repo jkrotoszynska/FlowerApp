@@ -39,32 +39,32 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         switch (position){
             case 0:{
                 picUrl="flow_1";
-                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.category_background1));
+                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.card_background));
                 break;
             }
             case 1:{
                 picUrl="flow_2";
-                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.category_background2));
+                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.card_background));
                 break;
             }
             case 2:{
                 picUrl="flow_3";
-                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.category_background3));
+                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.card_background));
                 break;
             }
             case 3:{
                 picUrl="flow_4";
-                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.category_background1));
+                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.card_background));
                 break;
             }
             case 4:{
                 picUrl="flow_5";
-                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.category_background2));
+                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.card_background));
                 break;
             }
             case 5:{
                 picUrl="flow_6";
-                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.category_background3));
+                holder.mainLayout.setBackground(ContextCompat.getDrawable(holder.itemView.getContext(),R.drawable.card_background));
                 break;
             }
         }
