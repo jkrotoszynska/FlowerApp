@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewPopularList.setLayoutManager(linearLayoutManager);
 
         ArrayList<com.example.myapplication.Domain.FlowersDomain> flowerList = new ArrayList<>();
-        flowerList.add(new FlowersDomain("100 roses", "rosess","",56.00));
-        flowerList.add(new FlowersDomain("Colors of sky", "sky", "", 28.00));
-        flowerList.add(new FlowersDomain("Spring is coming", "spring", "", 22.00));
-        flowerList.add(new FlowersDomain("It's rainbow", "rainbow", "", 25.00 ));
+        flowerList.add(new FlowersDomain("100 roses", "rosess","Tutaj zostanie zamieszczony opis tych kwiatów. Pamiętać o języku angielskim!",56.00));
+        flowerList.add(new FlowersDomain("Colors of sky", "sky", "Tutaj zostanie zamieszczony opis tych kwiatów. Pamiętać o języku angielskim!", 28.00));
+        flowerList.add(new FlowersDomain("Spring is coming", "spring", "Tutaj zostanie zamieszczony opis tych kwiatów. Pamiętać o języku angielskim!", 22.00));
+        flowerList.add(new FlowersDomain("It's rainbow", "rainbow", "Tutaj zostanie zamieszczony opis tych kwiatów. Pamiętać o języku angielskim!", 25.00 ));
 
         adapter2 = new PopularAdapter(flowerList);
         recyclerViewPopularList.setAdapter(adapter2);
