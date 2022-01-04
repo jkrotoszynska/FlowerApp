@@ -8,27 +8,30 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.myapplication.R;
+import com.example.myapp.Helper.ManagmentCard;
+import com.example.myapp.R;
 
 public class ShowDetailActivity extends AppCompatActivity {
     private TextView addToCardBtn;
     private TextView titleTxt,feeTxt, descriptionTxt, numberOrderTxt;
     private ImageView plusBtn, minusBtn, picFlower;
-    private com.example.myapplication.Domain.FlowersDomain object;
+    private com.example.myapp.Domain.FlowersDomain object;
     private int numberOrder = 1;
+    private ManagmentCard managmentCard;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_detail);
-        
+
+        managmentCard = new ManagmentCard(this);
         initView();
         getBundle();
     }
 
     private void getBundle() {
-        object = (com.example.myapplication.Domain.FlowersDomain) getIntent().getSerializableExtra("object");
+        object = (com.example.myapp.Domain.FlowersDomain) getIntent().getSerializableExtra("object");
 
         int drawableResourceId=this.getResources().getIdentifier(object.getPic(), "drawable", this.getPackageName());
 
@@ -62,7 +65,8 @@ public class ShowDetailActivity extends AppCompatActivity {
         addToCardBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                object.setNumberInCard(numberOrder);
+                managmentCard.insertFLower(object);
             }
         });
 

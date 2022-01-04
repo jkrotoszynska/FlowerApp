@@ -31,7 +31,7 @@ import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.example.myapplication.Domain.FlowersDomain;
+import com.example.myapp.Domain.FlowersDomain;
 import com.google.gson.Gson;
 
 import java.io.File;
@@ -326,11 +326,11 @@ public class TinyDB {
     }
 
 
-    public ArrayList<com.example.myapplication.Domain.FlowersDomain> getListObject(String key){
+    public ArrayList<com.example.myapp.Domain.FlowersDomain> getListObject(String key){
         Gson gson = new Gson();
 
         ArrayList<String> objStrings = getListString(key);
-        ArrayList<com.example.myapplication.Domain.FlowersDomain> playerList =  new ArrayList<FlowersDomain>();
+        ArrayList<com.example.myapp.Domain.FlowersDomain> playerList =  new ArrayList<FlowersDomain>();
 
         for(String jObjString : objStrings){
             FlowersDomain player  = gson.fromJson(jObjString,  FlowersDomain.class);

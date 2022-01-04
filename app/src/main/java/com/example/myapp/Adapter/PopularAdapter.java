@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.myapp.Activity.ShowDetailActivity;
-import com.example.myapplication.Domain.FlowersDomain;
-import com.example.myapplication.R;
+import com.example.myapp.Domain.FlowersDomain;
+import com.example.myapp.R;
 
 import java.util.ArrayList;
 

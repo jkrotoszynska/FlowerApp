@@ -1,4 +1,4 @@
-package com.example.myapplication.Adapter;
+package com.example.myapp.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +12,8 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.myapplication.Domain.CategoryDomain;
-import com.example.myapplication.R;
+import com.example.myapp.Domain.CategoryDomain;
+import com.example.myapp.R;
 
 import java.util.ArrayList;
 
