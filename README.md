@@ -12,7 +12,7 @@ Jej zasady działania są takie same jak największych firm dostarczających jed
 ## Prezentacja głównego ekranu :cherry_blossom:
 ![alt text](https://github.com/jkrotoszynska/app/blob/main/firstPage.PNG)
 ***
-W aplikacji dostępne są:
+__W aplikacji dostępne są:__
 * ekran rozpoczynający, umożliwiający przejście dalej
 * ekran główny
 * ekrany dla poszczególnych bukietów
