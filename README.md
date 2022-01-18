@@ -7,9 +7,9 @@ __Środowisko:__ Android Studio
 __Data zaliczenia:__ 20.01.2022    
 ***
 Na potrzeby zaliczenia przedmiotu stworzyłam demo aplikacji, dzięki której można zamówić kwiaty pod same drzwi!
-Jej zasady działania są takie same jak największych firm dostarczających jedzeni.
+Jej zasady działania są takie same jak największych firm dostarczających jedzenie.
 ***
-## Prezentacja głównego ekranu
+## Prezentacja głównego ekranu :cherry_blossom:
 ![alt text](https://github.com/jkrotoszynska/app/blob/main/firstPage.PNG)
 ***
 W aplikacji dostępne są:
