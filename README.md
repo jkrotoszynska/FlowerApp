@@ -10,8 +10,7 @@ Na potrzeby zaliczenia przedmiotu stworzyłam demo aplikacji, dzięki której mo
 Jej zasady działania są takie same jak największych firm dostarczających jedzeni.
 ***
 ## Prezentacja ekranów aplikacji
-![alt text](https://github.com/jkrotoszynska/app/blob/main/mainScreen.PNG){ width="800" height="600" style="display: block; margin: 0 auto" }
-![alt text](https://github.com/jkrotoszynska/app/blob/main/firstPage.PNG)
+![alt text](https://github.com/jkrotoszynska/app/blob/main/mainScreen.PNG) ![alt text](https://github.com/jkrotoszynska/app/blob/main/firstPage.PNG)
 ![alt text](https://github.com/jkrotoszynska/app/blob/main/flowerPage.PNG)
 ![alt text](https://github.com/jkrotoszynska/app/blob/main/cardScreen.PNG)
 ***
