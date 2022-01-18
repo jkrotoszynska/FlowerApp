@@ -6,3 +6,4 @@ __Narzędzia:__ Java
 __Środowisko:__ Android Studio  
 __Data zaliczenia:__ 20.01.2022    
 ***
+Na potrzeby zaliczenia przedmiotu stworzyłam aplikację, dzięki której można zamówić kwiaty pod same drzwi!
